@@ -1,5 +1,8 @@
 {
   "imports": {
-    "oak": "https://deno.land/x/oak@v6.3.1/mod.ts"
+    "dotenv": "https://deno.land/x/dotenv@v0.5.0/load.ts",
+    "mongo": "https://deno.land/x/mongo@v0.13.0/mod.ts",
+    "oak": "https://deno.land/x/oak@v6.3.1/mod.ts",
+    "router": "./modules/router/mod.ts"
   }
 }
